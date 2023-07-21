@@ -57,12 +57,14 @@ export function Hero() {
               icons from scratch.
             </p>
             <div className="mt-8 flex gap-4">
-              <Button href="#free-chapters" color="blue">
-                Get sample chapter
-              </Button>
-              <Button href="#pricing" variant="outline" color="blue">
-                Buy book
-              </Button>
+              <iframe
+                width="540"
+                height="460"
+                src="https://289be4f0.sibforms.com/serve/MUIFAGQ4BZoSeJcfgT0MwCv8L30MFo7Cdev8ukbC5DvxdYP0Fx7y8B7-6-vUUvQwdtZSUyGbKOzqkusYou8uOny9b7_SUYm24Aqur8P1MUPAxE6A-VxNQQDfdrCD0tJ8XDGmYL8v2ilWQ1eoyw8zTgaA346Hzjycj9yVdNPY0VmS6fnoh4kfY1YosV5LW3hQfCz4rfbHqDP5I_sI"
+                scrolling="none"
+                allowFullscreen
+                className="ml-auto;mr-auto block max-w-full"
+              ></iframe>
             </div>
           </div>
         </div>
