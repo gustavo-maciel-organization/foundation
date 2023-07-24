@@ -1,7 +1,7 @@
 import Image from 'next/image'
 
-import { Container } from '@/components/Container'
-import { SectionHeading } from '@/components/SectionHeading'
+import { Container } from '@/components/newsleatter/Container'
+import { SectionHeading } from '@/components/newsleatter/SectionHeading'
 import abstractBackgroundImage from '@/images/resources/abstract-background.png'
 import discordImage from '@/images/resources/discord.svg'
 import figmaImage from '@/images/resources/figma.svg'

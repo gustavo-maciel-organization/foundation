@@ -1,10 +1,10 @@
 import clsx from 'clsx'
 
-import { Button } from '@/components/Button'
-import { CheckIcon } from '@/components/CheckIcon'
-import { Container } from '@/components/Container'
-import { GridPattern } from '@/components/GridPattern'
-import { SectionHeading } from '@/components/SectionHeading'
+import { Button } from '@/components/newsleatter/Button'
+import { CheckIcon } from '@/components/newsleatter/CheckIcon'
+import { Container } from '@/components/newsleatter/Container'
+import { GridPattern } from '@/components/newsleatter/GridPattern'
+import { SectionHeading } from '@/components/newsleatter/SectionHeading'
 
 function Plan({ name, description, price, features, href, featured }) {
   return (

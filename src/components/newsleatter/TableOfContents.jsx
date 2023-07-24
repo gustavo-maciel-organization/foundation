@@ -1,6 +1,6 @@
-import { Container } from '@/components/Container'
-import { Expandable } from '@/components/Expandable'
-import { SectionHeading } from '@/components/SectionHeading'
+import { Container } from '@/components/newsleatter/Container'
+import { Expandable } from '@/components/newsleatter/Expandable'
+import { SectionHeading } from '@/components/newsleatter/SectionHeading'
 
 const tableOfContents = {
   'Getting started': {

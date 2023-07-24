@@ -1,7 +1,8 @@
 import Image from 'next/image'
 
-import { Container } from '@/components/Container'
-import { SectionHeading } from '@/components/SectionHeading'
+import { Container } from '@/components/newsleatter/Container'
+import { SectionHeading } from '@/components/newsleatter/SectionHeading'
+
 import duotoneImage from '@/images/screencasts/duotone.svg'
 import gridsImage from '@/images/screencasts/grids.svg'
 import setupImage from '@/images/screencasts/setup.svg'

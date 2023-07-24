@@ -1,4 +1,4 @@
-import { GridPattern } from '@/components/GridPattern'
+import { GridPattern } from '@/components/newsleatter/GridPattern'
 
 export function Footer() {
   return (
