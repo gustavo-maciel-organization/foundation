@@ -19,7 +19,7 @@ import logoPhobiaDark from '@/images/clients/phobia/logo-dark.svg'
 import logoPhobiaLight from '@/images/clients/phobia/logo-light.svg'
 import logoUnseal from '@/images/clients/unseal/logo-light.svg'
 import imageLaptop from '@/images/laptop.jpg'
-import { loadMDXMetadata } from '@/lib/loadMDXMetadata'
+import { Footer } from '@/components/home/Footer'
 
 const clients = [
   ['Phobia', logoPhobiaLight],
@@ -75,8 +75,7 @@ function CaseStudies() {
         </p>
       </SectionIntro>
       <Container className="mt-16">
-        <FadeInStagger className="grid grid-cols-1 gap-8 lg:grid-cols-3">
-        </FadeInStagger>
+        <FadeInStagger className="grid grid-cols-1 gap-8 lg:grid-cols-3"></FadeInStagger>
       </Container>
     </>
   )
@@ -138,8 +137,6 @@ export const metadata = {
     'We are developer studio working at the intersection of design and technology.',
 }
 
-
-
 export default function Home(caseStudies) {
   return (
     <>
@@ -172,7 +169,7 @@ export default function Home(caseStudies) {
       <Services />
 
       <ContactSection />
+      <Footer />
     </>
   )
 }
-
